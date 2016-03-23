@@ -72,6 +72,18 @@ body {
 	width: 100%;
 }
 
+.web {
+	display: block;
+}
+
+.medium {
+	display: none;
+}
+
+.mobile {
+	display: none;
+}
+
 img {
 	top: -30px;
 	width: 100%;
@@ -118,12 +130,36 @@ h1 {
 	h1 {
 		font-size: 35px;
 	}
+
+	.web {
+		display: none;
+	}
+
+	.medium {
+		display: block;
+	}
+
+	.mobile {
+		display: none;
+	}
 }
 
 @media (max-width: 550px) { 
 	h1 {
 		top: 30%;
 		font-size: 25px;
+	}
+
+	.web {
+		display: none;
+	}
+
+	.medium {
+		display: none;
+	}
+
+	.mobile {
+		display: block;
 	}
 }
 
